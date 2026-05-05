@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">bekolitech web uygulama vitrini</title>
+  <desc id="desc">Dinamik web sitesi, yÃ¶netim paneli, teklif formu ve animasyon akÄ±ÅŸÄ± Ã¶ÄŸelerini gÃ¶steren teknoloji stÃ¼dyosu gÃ¶rseli.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0b1220"/>
+      <stop offset=".55" stop-color="#111a2d"/>
+      <stop offset="1" stop-color="#070b13"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#36f1e0"/>
+      <stop offset=".54" stop-color="#4d7cfe"/>
+      <stop offset="1" stop-color="#9b5cff"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" x2="1">
+      <stop stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ff9f1c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#dce7f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="36" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="920" rx="52" fill="url(#bg)"/>
+  <path d="M0 170h1200M0 340h1200M0 510h1200M0 680h1200M170 0v920M340 0v920M510 0v920M680 0v920M850 0v920M1020 0v920" stroke="#fff" stroke-opacity=".05"/>
+  <path d="M86 696 393 260l220 158 176-254 325 380" fill="none" stroke="#36f1e0" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M80 155h1040v610H80z" fill="#070b13" opacity=".28"/>
+
+  <g filter="url(#shadow)">
+    <rect x="118" y="104" width="684" height="494" rx="34" fill="url(#panel)"/>
+    <rect x="148" y="134" width="624" height="58" rx="18" fill="#101827"/>
+    <circle cx="179" cy="163" r="7" fill="#36f1e0"/>
+    <circle cx="204" cy="163" r="7" fill="#ffd166"/>
+    <circle cx="229" cy="163" r="7" fill="#9b5cff"/>
+    <rect x="590" y="153" width="136" height="20" rx="10" fill="#fff" opacity=".16"/>
+
+    <rect x="162" y="232" width="264" height="198" rx="26" fill="#0b1220"/>
+    <path d="M190 364c34-48 68-48 102 0 24 34 49 34 75 0" fill="none" stroke="url(#cyanBlue)" stroke-width="12" stroke-linecap="round"/>
+    <rect x="190" y="268" width="112" height="16" rx="8" fill="#fff" opacity=".35"/>
+    <rect x="190" y="300" width="168" height="24" rx="12" fill="#36f1e0"/>
+
+    <rect x="456" y="232" width="270" height="82" rx="22" fill="#fff"/>
+    <rect x="482" y="258" width="82" height="14" rx="7" fill="#101827" opacity=".24"/>
+    <rect x="482" y="286" width="184" height="10" rx="5" fill="#4d7cfe" opacity=".78"/>
+    <rect x="456" y="340" width="270" height="82" rx="22" fill="#fff"/>
+    <rect x="482" y="366" width="98" height="14" rx="7" fill="#101827" opacity=".24"/>
+    <rect x="482" y="394" width="146" height="10" rx="5" fill="#ffd166" opacity=".9"/>
+    <rect x="456" y="448" width="270" height="82" rx="22" fill="#fff"/>
+    <rect x="482" y="474" width="132" height="14" rx="7" fill="#101827" opacity=".24"/>
+    <rect x="482" y="502" width="202" height="10" rx="5" fill="#36f1e0" opacity=".82"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="720" y="280" width="342" height="500" rx="40" fill="#101827"/>
+    <rect x="754" y="322" width="274" height="82" rx="24" fill="url(#cyanBlue)"/>
+    <rect x="786" y="352" width="134" height="16" rx="8" fill="#fff" opacity=".72"/>
+    <rect x="786" y="377" width="196" height="10" rx="5" fill="#fff" opacity=".38"/>
+    <rect x="754" y="434" width="274" height="82" rx="24" fill="#fff" opacity=".1"/>
+    <rect x="786" y="464" width="94" height="14" rx="7" fill="#fff" opacity=".52"/>
+    <rect x="786" y="490" width="174" height="10" rx="5" fill="#36f1e0" opacity=".65"/>
+    <rect x="754" y="546" width="274" height="82" rx="24" fill="#fff" opacity=".1"/>
+    <rect x="786" y="576" width="126" height="14" rx="7" fill="#fff" opacity=".52"/>
+    <rect x="786" y="602" width="142" height="10" rx="5" fill="#ffd166" opacity=".72"/>
+    <rect x="754" y="678" width="168" height="42" rx="21" fill="url(#amber)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="178" y="646" width="392" height="156" rx="30" fill="#111a2d"/>
+    <rect x="212" y="684" width="104" height="16" rx="8" fill="#36f1e0"/>
+    <rect x="212" y="724" width="286" height="14" rx="7" fill="#fff" opacity=".18"/>
+    <rect x="212" y="755" width="210" height="14" rx="7" fill="#fff" opacity=".12"/>
+    <rect x="456" y="682" width="70" height="70" rx="18" fill="url(#cyanBlue)"/>
+  </g>
+
+  <g fill="#f8fbff" opacity=".7">
+    <text x="118" y="840" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">UI/UX</text>
+    <text x="234" y="840" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Frontend</text>
+    <text x="394" y="840" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Scroll Story</text>
+    <text x="608" y="840" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Quote Funnel</text>
+  </g>
+</svg>
