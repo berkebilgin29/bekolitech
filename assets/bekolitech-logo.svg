@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">bekolitech logo</title>
+  <desc id="desc">Modern teknoloji stÃ¼dyosu iÃ§in soyut b ve t monogramÄ±.</desc>
+  <defs>
+    <linearGradient id="mark" x1="18" x2="80" y1="18" y2="78">
+      <stop stop-color="#36f1e0"/>
+      <stop offset=".55" stop-color="#4d7cfe"/>
+      <stop offset="1" stop-color="#9b5cff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="18" x2="78" y1="78" y2="20">
+      <stop stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#36f1e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="#080d18"/>
+  <path d="M25 22h15v52H25z" fill="url(#mark)"/>
+  <path d="M40 36h16c12 0 20 7 20 19s-8 19-20 19H40V60h15c4 0 7-2 7-5s-3-5-7-5H40z" fill="url(#mark)"/>
+  <path d="M54 22h17v14h13v14H71v24H56V50H46V36h8z" fill="#f7fbff" opacity=".92"/>
+  <path d="M22 78h52" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="74" cy="78" r="5" fill="#ffd166"/>
+</svg>
